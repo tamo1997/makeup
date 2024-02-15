@@ -91,6 +91,25 @@
             -ms-flex-pack: start;
                 justify-content: flex-start;
     }
+    .divpic1{
+        height: 320px;
+        width: 220px;
+
+    }
+    .divpic1 img {
+        width: 100%;
+       
+    }
+    .pictures{
+        height: 1500px;
+    }
+    .sect2div-bg{
+        height: 300px;
+        width: 220px;
+    }
+    .sec2image{
+        height: 300px;
+    }
 }
 
 @media (max-width:480px) {
@@ -98,6 +117,26 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         width: 200px;
+    }
+    .divpic1{
+        height: 320px;
+        width: 250px;
+
+    }
+    .divpic1 img {
+        width: 100%;
+        height: 340px;
+       
+    }
+    .pictures{
+        height: 1500px;
+    }
+    .sect2div-bg{
+        height: 350px;
+        width: 240px;
+    }
+    .sec2image{
+        height: 350px;
     }
 }
 
