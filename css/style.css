@@ -13,11 +13,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,11 +69,11 @@
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 20px;
   height: 90px;
   font-family: 'Merienda';
@@ -85,29 +85,27 @@
 .satauri {
   display: inline;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .pictures {
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  height: 500px;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  height: 400px;
   width: 100%;
-  max-width: 2000px;
   background-color: #fdfdfd;
-  padding-top: 40px;
-  margin-top: 20px;
+  align-items: center;
 }
 
 .girl1pic {
   border-radius: 20%;
   -webkit-box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
-          box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
+  box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
   -webkit-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
@@ -115,28 +113,25 @@
 }
 
 .divpic1 {
-  max-width: 400px;
-  height: 400px;
+  max-width: 300px;
+  height: 350px;
 
 }
 
 /* section 2 */
 .sectdiv2 {
   width: 100%;
-  max-width: 2000px;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 550px;
 }
 
 .sec2image {
-  width: 100%;
-  max-width: 500px;
-  height: 500px;
+  height: 450px;
   -webkit-box-shadow: 0px 10px 50px -5px rgb(59, 50, 50);
-          box-shadow: 0px 10px 50px -5px rgb(59, 50, 50);
+  box-shadow: 0px 10px 50px -5px rgb(59, 50, 50);
   border-radius: 5%;
   -webkit-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
@@ -158,11 +153,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container {
@@ -171,10 +166,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 
 }
 
@@ -191,13 +186,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-transition: .6s cubic-bezier(.2, -0.03, 0, 0.2);
   -o-transition: .6s cubic-bezier(.2, -0.03, 0, 0.2);
   transition: .6s cubic-bezier(.2, -0.03, 0, 0.2);
   -webkit-box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
-          box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
+  box-shadow: 0px 10px 50px -5px rgba(83, 1, 1, 0.8);
   margin-left: 8px;
 }
 
@@ -213,8 +208,8 @@ input:checked+label {
 input:checked+label .description {
   opacity: 1 !important;
   -webkit-transform: translateY(0) !important;
-      -ms-transform: translateY(0) !important;
-          transform: translateY(0) !important;
+  -ms-transform: translateY(0) !important;
+  transform: translateY(0) !important;
 }
 
 .card[for=c1] {
@@ -258,8 +253,8 @@ input:checked+label .description {
   width: 80%;
   margin: 0 auto;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer-bg {
@@ -269,12 +264,12 @@ input:checked+label .description {
 
 .footer-block2 {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: #6d0a0af3;
   height: 80px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 80%;
 
 }
@@ -304,7 +299,7 @@ input:checked+label .description {
   width: 90%;
   max-width: 2000px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 
 }
 
@@ -422,25 +417,25 @@ input:checked+label .description {
 
 .girl1pic:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-box-shadow: 10px 20px 20px 10px rgba(187, 79, 79, 0.884);
-          box-shadow: 10px 20px 20px 10px rgba(187, 79, 79, 0.884);
+  box-shadow: 10px 20px 20px 10px rgba(187, 79, 79, 0.884);
 
 }
 
 .sec2image:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-box-shadow: 10px 2px 20px 10px rgba(79, 187, 155, 0.884);
-          box-shadow: 10px 2px 20px 10px rgba(79, 187, 155, 0.884);
+  box-shadow: 10px 2px 20px 10px rgba(79, 187, 155, 0.884);
 }
 
 .card:hover {
   -webkit-box-shadow: 0px 20px 20px 0px rgba(187, 79, 79, 0.884);
-          box-shadow: 0px 20px 20px 0px rgba(187, 79, 79, 0.884);
+  box-shadow: 0px 20px 20px 0px rgba(187, 79, 79, 0.884);
   -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-          transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
