@@ -47,6 +47,16 @@
         font-size: 30px;
         z-index: 101;
     }
+    .container{
+        width: 800px;
+        height: 700px;
+    }
+    .wrapper{
+        height: 900px;
+    }
+    .card{
+        margin-bottom: 60px;
+    }
 }
 
 @media(max-width:1050px) {
@@ -58,6 +68,16 @@
 
     .footer-block2 {
         width: 600px;
+    }
+    .container{
+        width: 800px;
+        height: 800px;
+    }
+    .wrapper{
+        height: 1000px;
+    }
+    .card{
+        margin-bottom: 60px;
     }
 }
 
@@ -80,7 +100,7 @@
     }
 
     .footer-block2 {
-        width: 460px;
+        width: 370px;
     }
 
 }
@@ -115,6 +135,21 @@
     .sec2image {
         height: 300px;
     }
+
+
+    .wrapper {
+        width: 220px;
+        margin-left: 18px;
+
+    }
+
+    .footer-conteiner {
+        margin-left: 30px;
+    }
+
+    .li-footer {
+        width: 260px;
+    }
 }
 
 @media (max-width:480px) {
@@ -148,19 +183,54 @@
     .sec2image {
         height: 350px;
     }
+
+    .footer-block2 {
+        width: 100px;
+    }
+
+    .h1-footer {
+        max-width: 100%;
+    }
+
+    .footer-conteiner {
+        margin-left: 50px;
+    }
+
+    .li-footer {
+        width: 260px;
+    }
+    
+    .container{
+        width: 200px;
+        height: 800px;
+    }
+    .wrapper{
+        height: 1000px;
+    }
+    .card{
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width:415px) {
+    .footer-block2 {
+        max-width: 300px;
+        margin-left: 0px;
+    }
+
+    .last {
+        width: 300px;
+
+    }
+    
+    
+
 }
 
 @media (max-width:580px) {
-    .last {
+    .span-word {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        width: 400px;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-
-    .span-word {
         width: 400px;
         -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -175,5 +245,29 @@
         display: grid;
         grid-template-columns: 68% 68%;
         max-width: 960px;
+    }
+    .wrapper{
+        height: 1300px;
+        width: 520px;
+    }
+    .container{
+        height: 1200px;
+        width: 380px;
+        margin-left: 30px;
+    }
+}
+@media (max-width:535px) {
+    .container{
+        max-width: 100%;
+        width: 300px;
+        height: 900px;
+    }
+    .wrapper{
+        height: 1000px;
+        width: 400px;
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 60px;
     }
 }
