@@ -22,7 +22,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ff9812f6;
+  background-color: #d63e10f6;
   padding: 25px;
   z-index: 100;
 }
@@ -78,7 +78,7 @@
   height: 90px;
   font-family: 'Merienda';
   font-size: 40px;
-  background-color: #ff9812f6;
+  background-color: #d63e10f6;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -258,14 +258,14 @@ input:checked+label .description {
 }
 
 .footer-bg {
-  background-color: #6d0a0a;
+  background-color: #c2360c;
   color: white;
 }
 
 .footer-block2 {
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  background-color: #6d0a0af3;
+  background-color: #c2360c;
   height: 80px;
   -webkit-box-align: center;
   -ms-flex-align: center;

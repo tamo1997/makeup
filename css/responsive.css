@@ -262,14 +262,21 @@
 
     .girl1pic {
         height: 400px;
-        max-width: 280px;
+        max-width: 380px;
     }
-
+    .footer-block{
+        height: 150px;
+    }
     .footer-conteiner {
         display: inline-block;
+
         -webkit-transform: translate(9%);
             -ms-transform: translate(9%);
                 transform: translate(9%);
+    }
+    .sec2image{
+        height: 320px;
+
     }
 
 }
